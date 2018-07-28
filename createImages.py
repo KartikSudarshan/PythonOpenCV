@@ -1,4 +1,4 @@
-
+#ipython dies not display some images properly as will be seen in player image
 import numpy as np
 import cv2
 

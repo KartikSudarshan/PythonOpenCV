@@ -4,7 +4,7 @@ import cv2
 
 img = cv2.imread("inputs/faces.jpeg",1)
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-path = "outputs/haarcascade_frontalface_default.xml"
+path = "inputs/haarcascade_frontalface_default.xml"
 
 face_cascade = cv2.CascadeClassifier(path)
 
